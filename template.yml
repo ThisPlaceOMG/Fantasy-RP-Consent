@@ -1,5 +1,6 @@
-# Rating codes: unrated, no, discuss, yes, favorite
-# Enter one code per column, in column order. Example: [yes, discuss]
+# Rating codes: hard_no, maybe, neutral, yes, love_it
+# Use unrated for unanswered items. Neutral is an intentional answer.
+# Enter one code per column, in column order. Example: [yes, maybe]
 title: Fantasy Roleplay Consent Sheet
 character: Your character name
 server: Your server name
@@ -11,21 +12,25 @@ ratings:
     label: Not answered
     mark: '?'
     color: '#788397'
-  'no':
-    label: 'No'
-    mark: N
+  hard_no:
+    label: Hard No
+    mark: HN
     color: '#ef8792'
-  discuss:
-    label: Discuss
-    mark: D
+  maybe:
+    label: Maybe
+    mark: M
     color: '#e4b866'
+  neutral:
+    label: Neutral
+    mark: N
+    color: '#b7bbc5'
   'yes':
     label: 'Yes'
     mark: Y
     color: '#78cbb1'
-  favorite:
-    label: Favorite
-    mark: F
+  love_it:
+    label: Love It
+    mark: L
     color: '#b2a0ef'
 categories:
 - name: Romance and Intimacy

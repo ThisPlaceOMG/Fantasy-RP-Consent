@@ -21,10 +21,11 @@ Edit `sheets/my-character.yml`. Change character/server at the top. Replace `unr
 | Code | Meaning |
 | --- | --- |
 | `unrated` | Not answered; never interpreted as permission |
-| `no` | No |
-| `discuss` | Discuss first |
+| `hard_no` | Hard No |
+| `maybe` | Maybe |
+| `neutral` | Neutral |
 | `yes` | Yes |
-| `favorite` | Favorite |
+| `love_it` | Love It |
 
 The column order controls the answer order:
 
@@ -32,11 +33,11 @@ The column order controls the answer order:
 - name: Power Exchange
   columns: [As Dominant, As Submissive]
   items:
-    Commands / Obedience: [yes, discuss]
-    Switching Roles: [no, no]
+    Commands / Obedience: [yes, maybe]
+    Switching Roles: [hard_no, hard_no]
 ```
 
-One-column categories need one answer: `Slow-Burn Romance: [favorite]`.
+One-column categories need one answer: `Slow-Burn Romance: [love_it]`.
 Bare `yes` and `no` are supported by this renderer. Keep square brackets, commas and indentation. Use spaces, not tabs.
 
 ## Configure the list
@@ -49,7 +50,7 @@ Change `ratings` to edit labels, letters and hex colors. The renderer supports u
 
 Changes to the master do **not** overwrite existing character sheets. Copy the updated master into `sheets/` for new sheets; merge question changes into completed sheets manually to preserve answers. In your initial distribution, update both the master and blank working sheet.
 
-No default answer is consent. Ratings describe preferences; the specific scene still needs agreement and must follow server rules.
+Neutral is a deliberate preference, not a blank answer. Unanswered items use `unrated`. No default answer is consent. Ratings describe preferences; the specific scene still needs agreement and must follow server rules.
 
 ## Generate pictures
 

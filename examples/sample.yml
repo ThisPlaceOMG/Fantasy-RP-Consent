@@ -1,0 +1,355 @@
+# Rating codes: hard_no, maybe, neutral, yes, love_it
+# Use unrated for unanswered items. Neutral is an intentional answer.
+# Enter one code per column, in column order. Example: [yes, maybe]
+title: Fantasy Roleplay Consent Sheet
+character: Sample Character
+server: Fantasy Roleplay
+updated: Example only
+notes: Preferences are not blanket consent. Discuss the scene; consent can change. Adult characters and
+  players only.
+ratings:
+  unrated:
+    label: Not answered
+    mark: '?'
+    color: '#788397'
+  hard_no:
+    label: Hard No
+    mark: HN
+    color: '#ef8792'
+  maybe:
+    label: Maybe
+    mark: M
+    color: '#e4b866'
+  neutral:
+    label: Neutral
+    mark: N
+    color: '#b7bbc5'
+  'yes':
+    label: 'Yes'
+    mark: Y
+    color: '#78cbb1'
+  love_it:
+    label: Love It
+    mark: L
+    color: '#b2a0ef'
+categories:
+- name: Romance and Intimacy
+  columns: [General]
+  items:
+    Casual Flirting: [hard_no]
+    Slow-Burn Romance: [maybe]
+    Casual Intimacy: [neutral]
+    Enemies to Lovers: ['yes']
+    Forbidden Romance: [love_it]
+    Possessive / Obsessive Romance: [unrated]
+    Unrequited Feelings: [hard_no]
+    Infidelity / Love Triangles: [maybe]
+    Arranged / Political Marriage: [neutral]
+    Fade-to-Black: ['yes']
+- name: Relationship Styles
+  columns: [General]
+  items:
+    Monogamy: [hard_no]
+    Friends with Benefits: [maybe]
+    Long-Term Relationships: [neutral]
+    Polyamory / Open Relationships: ['yes']
+    Multiple Partners in One Scene: [love_it]
+    Secret Relationships: [unrated]
+    Unequal Social Status: [hard_no]
+    Adult Age Gaps: [maybe]
+    Mortal / Immortal Relationships: [neutral]
+- name: Fantasy Partners
+  columns: [Partner]
+  items:
+    Humanoid Characters: [hard_no]
+    Monstrous Humanoids: [maybe]
+    Beastkin: [neutral]
+    Reptilian / Scaled Characters: ['yes']
+    Vampires: [love_it]
+    Undead: [unrated]
+    Fae: [hard_no]
+    Fiends / Demons: [maybe]
+    Celestials: [neutral]
+    Spirits: ['yes']
+    Shapeshifters: [love_it]
+    Significant Size Differences: [unrated]
+- name: Dominant Roles
+  columns: [Self, Partner]
+  items:
+    Strict Dominant: [hard_no, maybe]
+    Gentle Dominant: [maybe, neutral]
+    Protective Dominant: [neutral, 'yes']
+    Master / Mistress: ['yes', love_it]
+    Owner / Handler: [love_it, unrated]
+- name: Submissive Roles
+  columns: [Self, Partner]
+  items:
+    Bratty Submissive: [hard_no, maybe]
+    Obedient Submissive: [maybe, neutral]
+    Service-Oriented Submissive: [neutral, 'yes']
+    Slave Dynamic: ['yes', love_it]
+    Pet Dynamic: [love_it, unrated]
+- name: Power Exchange
+  columns: [As Dominant, As Submissive]
+  items:
+    Commands / Obedience: [hard_no, maybe]
+    Rules / Formal Protocol: [maybe, neutral]
+    Honorifics / Titles: [neutral, 'yes']
+    Permission Rituals: ['yes', love_it]
+    Training / Instruction: [love_it, unrated]
+    Rewards / Discipline: [unrated, hard_no]
+    Brat-Taming: [hard_no, maybe]
+    Begging: [maybe, neutral]
+    Public Displays of Submission: [neutral, 'yes']
+    Temporary Power Exchange: ['yes', love_it]
+    Ongoing Power Exchange: [love_it, unrated]
+    Switching Roles: [unrated, hard_no]
+- name: Praise and Degradation
+  columns: [Giving, Receiving]
+  items:
+    Gentle Praise: [hard_no, maybe]
+    Possessive Praise: [maybe, neutral]
+    Earning Approval: [neutral, 'yes']
+    Embarrassment: ['yes', love_it]
+    Private Humiliation: [love_it, unrated]
+    Public Humiliation: [unrated, hard_no]
+    Name-Calling: [hard_no, maybe]
+    Objectification: [maybe, neutral]
+    Status-Based Degradation: [neutral, 'yes']
+    Consensual Dehumanization: ['yes', love_it]
+- name: Service and Devotion
+  columns: [Giving, Receiving]
+  items:
+    Personal Attendant: [hard_no, maybe]
+    Domestic Service: [maybe, neutral]
+    Dressing / Undressing Assistance: [neutral, 'yes']
+    Bathing / Grooming: ['yes', love_it]
+    Kneeling / Formal Postures: [love_it, unrated]
+    Ritual Greetings: [unrated, hard_no]
+    Acts of Devotion: [hard_no, maybe]
+    Worship / Adoration: [maybe, neutral]
+    Serving Before an Audience: [neutral, 'yes']
+    Competing for Favor: ['yes', love_it]
+- name: Ownership and Symbols
+  columns: [Self, Partner]
+  items:
+    Collars / Leashes: [hard_no, maybe]
+    Ownership Jewelry: [maybe, neutral]
+    Matching Symbols: [neutral, 'yes']
+    Temporary Ownership Markings: ['yes', love_it]
+    Permanent Ownership Markings: [love_it, unrated]
+    Titles Indicating Ownership: [unrated, hard_no]
+    Private Ownership Dynamic: [hard_no, maybe]
+    Public Ownership Dynamic: [maybe, neutral]
+    Collaring Ceremonies: [neutral, 'yes']
+- name: Bondage and Restraint
+  columns: [Self, Partner]
+  items:
+    Light Bondage: [hard_no, maybe]
+    Heavy / Elaborate Bondage: [maybe, neutral]
+    Rope: [neutral, 'yes']
+    Cuffs / Shackles: ['yes', love_it]
+    Blindfolds: [love_it, unrated]
+    Gags: [unrated, hard_no]
+    Restricted Movement: [hard_no, maybe]
+    Sensory Deprivation: [maybe, neutral]
+    Magical Restraints: [neutral, 'yes']
+    Enchanted Accessories: ['yes', love_it]
+- name: Sensation and Teasing
+  columns: [Giving, Receiving]
+  items:
+    Teasing: [hard_no, maybe]
+    Sensation Play: [maybe, neutral]
+    Temperature-Based Sensation: [neutral, 'yes']
+    Anticipation: ['yes', love_it]
+    Tickling: [love_it, unrated]
+- name: Pain and Discipline
+  columns: [Giving, Receiving]
+  items:
+    Light Pain: [hard_no, maybe]
+    Intense Pain Themes: [maybe, neutral]
+    Impact Play: [neutral, 'yes']
+    Scratching: ['yes', love_it]
+    Biting: [love_it, unrated]
+    Endurance Challenges: [unrated, hard_no]
+    Ritualized Discipline: [hard_no, maybe]
+    Discipline Followed by Comfort: [maybe, neutral]
+    Temporary Marks: [neutral, 'yes']
+    Lasting Marks: ['yes', love_it]
+- name: Pet and Handler Dynamics
+  columns: [Self, Partner]
+  items:
+    Pet Names / Titles: [hard_no, maybe]
+    Commands / Training: [maybe, neutral]
+    Praise / Rewards: [neutral, 'yes']
+    Grooming: ['yes', love_it]
+    Playful Pet Behavior: [love_it, unrated]
+    Protective Handler: [unrated, hard_no]
+    Strict Handler: [hard_no, maybe]
+    Private Pet Dynamic: [maybe, neutral]
+    Public Pet Dynamic: [neutral, 'yes']
+- name: Attention and Exposure
+  columns: [Self, Partner]
+  items:
+    Being Admired: [hard_no, maybe]
+    Exhibitionism: [maybe, neutral]
+    Voyeurism With Consenting Adults: [neutral, 'yes']
+    Performing for a Consenting Audience: ['yes', love_it]
+    Consensual Display: [love_it, unrated]
+    Being Presented by a Partner: [unrated, hard_no]
+    Being the Center of Attention: [hard_no, maybe]
+    Private Photography / Screenshots: [maybe, neutral]
+    Shared Photography / Screenshots: [neutral, 'yes']
+- name: Clothing and Presentation
+  columns: [Self, Partner]
+  items:
+    Lingerie / Sheer Clothing: [hard_no, maybe]
+    Leather: [maybe, neutral]
+    Armor: [neutral, 'yes']
+    Ceremonial Clothing: ['yes', love_it]
+    Servant Clothing: [love_it, unrated]
+    Masks / Veils: [unrated, hard_no]
+    Cross-Dressing: [hard_no, maybe]
+    Partner-Chosen Clothing: [maybe, neutral]
+- name: Fantasy Kink Dynamics
+  columns: [Self, Partner]
+  items:
+    Noble / Sworn Attendant: [hard_no, maybe]
+    Warlord / Consort: [maybe, neutral]
+    Priest / Devotee: [neutral, 'yes']
+    Champion / Patron: ['yes', love_it]
+    Fae Court Hierarchy: [love_it, unrated]
+    Vampire / Willing Donor: [unrated, hard_no]
+    Consensually Bound Familiar: [hard_no, maybe]
+    Consensual Magical Ownership: [maybe, neutral]
+    Ritual Submission: [neutral, 'yes']
+    Negotiated Supernatural Power Imbalance: ['yes', love_it]
+- name: Conflict and Manipulation
+  columns: [Initiating, Receiving]
+  items:
+    Intimidation / Threats: [hard_no, maybe]
+    Blackmail: [maybe, neutral]
+    Emotional Manipulation: [neutral, 'yes']
+    Obsession / Stalking: ['yes', love_it]
+    Betrayal: [love_it, unrated]
+    Public Humiliation During Conflict: [unrated, hard_no]
+    Exposure of Secrets: [hard_no, maybe]
+    Religious Persecution: [maybe, neutral]
+    Prejudice Against Fictional Peoples: [neutral, 'yes']
+    Threats Against Loved Ones: ['yes', love_it]
+- name: Capture and Control
+  columns: [Captor, Captive]
+  items:
+    Short-Term Capture: [hard_no, maybe]
+    Long-Term Captivity: [maybe, neutral]
+    Kidnapping: [neutral, 'yes']
+    Imprisonment: ['yes', love_it]
+    Ransom: [love_it, unrated]
+    Forced Relocation: [unrated, hard_no]
+    Interrogation: [hard_no, maybe]
+    Torture: [maybe, neutral]
+    Forced Labor: [neutral, 'yes']
+    Enslavement: ['yes', love_it]
+    Sale / Transfer of Captives: [love_it, unrated]
+- name: Injury and Consequences
+  columns: [Inflicting, Receiving]
+  items:
+    Serious Injury: [hard_no, maybe]
+    Permanent Scarring: [maybe, neutral]
+    Branding / Permanent Markings: [neutral, 'yes']
+    Mutilation: ['yes', love_it]
+    Loss of Limbs / Senses: [love_it, unrated]
+    Lasting Disability: [unrated, hard_no]
+    Temporary Loss of Abilities: [hard_no, maybe]
+    Permanent Loss of Abilities: [maybe, neutral]
+- name: Mental Magic
+  columns: [Caster, Target]
+  items:
+    Mind Reading: [hard_no, maybe]
+    Compelled Truth: [maybe, neutral]
+    Emotion Manipulation: [neutral, 'yes']
+    Memory Viewing: ['yes', love_it]
+    Memory Alteration / Erasure: [love_it, unrated]
+    Mind Control: [unrated, hard_no]
+    Possession: [hard_no, maybe]
+    Magical Surveillance: [maybe, neutral]
+    Induced Dreams / Nightmares: [neutral, 'yes']
+- name: Transformation and Corruption
+  columns: [Inflicting, Receiving]
+  items:
+    Temporary Transformation: [hard_no, maybe]
+    Permanent Transformation: [maybe, neutral]
+    Involuntary Shapeshifting: [neutral, 'yes']
+    Vampirism: ['yes', love_it]
+    Lycanthropy: [love_it, unrated]
+    Undeath: [unrated, hard_no]
+    Physical Corruption: [hard_no, maybe]
+    Mental / Spiritual Corruption: [maybe, neutral]
+    Changes to Personality: [neutral, 'yes']
+    Changes to Ancestry: ['yes', love_it]
+    Loss of Control: [love_it, unrated]
+- name: Pacts and Magical Bonds
+  columns: [Initiating, Receiving]
+  items:
+    Binding Oaths: [hard_no, maybe]
+    Fae Bargains: [maybe, neutral]
+    Infernal Contracts: [neutral, 'yes']
+    Soul Bonds: ['yes', love_it]
+    Shared Emotions / Sensations: [love_it, unrated]
+    Bound Service: [unrated, hard_no]
+    Soul Ownership: [hard_no, maybe]
+    Consequences for Broken Pacts: [maybe, neutral]
+    Irreversible Magical Bonds: [neutral, 'yes']
+- name: Feeding and Ritual
+  columns: [Giving, Receiving]
+  items:
+    Vampire Feeding: [hard_no, maybe]
+    Bloodletting: [maybe, neutral]
+    Blood Rituals: [neutral, 'yes']
+    Energy Draining: ['yes', love_it]
+    Sacrificial Themes: [love_it, unrated]
+    Ritual Scarification: [unrated, hard_no]
+    Lasting Feeding Marks: [hard_no, maybe]
+    Feeding With Lasting Consequences: [maybe, neutral]
+- name: Horror and Dark Themes
+  columns: [General]
+  items:
+    Graphic Violence / Gore: [hard_no]
+    Body Horror: [maybe]
+    Disease / Plague: [neutral]
+    Parasites / Infestation: ['yes']
+    Cannibalism: [love_it]
+    Psychological Horror: [unrated]
+    Loss of Identity: [hard_no]
+    Soul Destruction: [maybe]
+- name: Property and Status
+  columns: [Inflicting, Receiving]
+  items:
+    Theft of Valuable Items: [hard_no, maybe]
+    Theft of Sentimental Items: [maybe, neutral]
+    Destruction of Property: [neutral, 'yes']
+    Loss of Home / Business: ['yes', love_it]
+    Loss of Rank / Authority: [love_it, unrated]
+    Public Disgrace: [unrated, hard_no]
+    Exile / Banishment: [hard_no, maybe]
+    Lasting Damage to Reputation: [maybe, neutral]
+- name: Death and Afterlife
+  columns: [Self, Partner]
+  items:
+    Permanent Character Death: [hard_no, maybe]
+    Execution: [maybe, neutral]
+    Sacrifice: [neutral, 'yes']
+    Resurrection: ['yes', love_it]
+    Resurrection With Lasting Changes: [love_it, unrated]
+    Failed Resurrection: [unrated, hard_no]
+    Ghost / Afterlife Roleplay: [hard_no, maybe]
+    Involuntary Return From Death: [maybe, neutral]
+- name: Care and Aftercare
+  columns: [Giving, Receiving]
+  items:
+    Reassurance / Affirmation: [hard_no, maybe]
+    Physical Comfort: [maybe, neutral]
+    Quiet Companionship: [neutral, 'yes']
+    Remaining in Character for Aftercare: ['yes', love_it]
+    Out-of-Character Check-In: [love_it, unrated]
+    Space After an Intense Scene: [unrated, hard_no]

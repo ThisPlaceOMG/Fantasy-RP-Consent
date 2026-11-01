@@ -17,7 +17,7 @@ For a private master, players need repository access to use it. A public blank m
 1. Create your own repository from the server's template. Choose **Private** if you do not want working answers visible.
 2. Open `sheets/my-character.yml` and click the pencil (**Edit this file**).
 3. Enter your character name and server at the top.
-4. Replace answers such as `[unrated, unrated]` with `[yes, discuss]`. Read the category's `columns` line to see which answer is which.
+4. Replace answers such as `[unrated, unrated]` with `[yes, maybe]`. Read the category's `columns` line to see which answer is which.
 5. Choose **Commit changes** to save. No Python installation is required on your computer.
 6. Open **Actions**. If GitHub asks you to enable workflows in your own copy, enable them.
 7. Select **Make consent sheet pictures → Run workflow**. Wait for the green check.
@@ -36,8 +36,8 @@ updated: '2026-10-31'
 - name: Praise and Degradation
   columns: [Giving, Receiving]
   items:
-    Gentle Praise: [yes, favorite]
-    Public Humiliation: [no, discuss]
+    Gentle Praise: [yes, love_it]
+    Public Humiliation: [hard_no, maybe]
 ```
 
 These answers are examples only.
@@ -47,7 +47,7 @@ These answers are examples only.
 - **No Actions workflow:** confirm `.github/workflows/render.yml` exists on the default branch. `WORKFLOW-COPY.txt` alone does not run.
 - **A red X:** open the failed workflow, then **Validate and render sheets**. The error identifies the question with a wrong code or answer count. Fix the YAML and commit again.
 - **No pictures:** edit a file inside `sheets/`, not just `template.yml`, or run the workflow manually.
-- **Code displays as invalid:** use exactly `unrated`, `no`, `discuss`, `yes`, or `favorite`, unless your template defines different codes.
+- **Code displays as invalid:** use exactly `unrated`, `hard_no`, `maybe`, `neutral`, `yes`, or `love_it`, unless your template defines different codes.
 - **Wrong number of answers:** one answer per column. Giving/Receiving needs two; General needs one.
 - **An old download disappeared:** artifacts expire after 30 days. Run the workflow again from your saved sheet.
 - **Need to change the questions later:** edit the sheet itself. Updating the master doesn't replace existing answers automatically.
