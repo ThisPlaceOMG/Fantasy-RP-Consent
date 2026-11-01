@@ -1,0 +1,48 @@
+CLICKABLE CONSENT SHEET — GITHUB PAGES
+
+Upload just index.html from this ZIP to the TOP LEVEL of your existing Fantasy-RP-Consent repository. Leave your old files alone.
+
+1. Open the repository's Code tab.
+2. Choose Add file > Upload files.
+3. Drag index.html into the upload box, then Commit changes.
+4. Open Settings > Pages (in the left sidebar).
+5. Under Build and deployment, set Source to Deploy from a branch.
+6. Set Branch to main and the folder to / (root), then Save.
+7. Wait for GitHub's Pages deployment to finish. Return to Settings > Pages and use Visit site / the published link shown there.
+
+Players only need the published link. They do not need a GitHub account.
+
+PLAYER CONTROLS
+- Enter your character name and optional notes.
+- Expand a category and click HN, M, N, Y or L.
+- Legend: Hard No, Maybe, Neutral, Yes, Love It.
+- Click the selected box again to clear it. Blank stays unanswered.
+- Answers autosave in the current browser, when browser storage is available.
+- Save answers downloads an editable .json backup. Use Open saved sheet to restore it on another device or share an editable copy.
+- Download pictures produces numbered PNG pages. Download each page and share the pictures on Discord.
+- Print / PDF uses the browser print dialog. If your browser ignores dark backgrounds, enable Background graphics.
+- To start another character, save the current character's answers first, then Clear all answers.
+
+CONFIGURE THE SERVER'S DEFAULT QUESTIONS
+- Open Edit question list.
+- Use # Category, then (Column 1, Column 2), then * Question lines.
+- Add, remove or reorder these lines; set the sheet title and default server.
+- Apply changes updates your browser's copy and preserves matching answers.
+- Download blank page produces a new index.html with your questions but NO character answers.
+- Upload that downloaded index.html to the same GitHub location to change the shared default.
+- Question edits cannot update GitHub automatically. This static page has no admin login.
+
+PRIVACY AND LIMITS
+- There is no central character directory, account system, or public results link.
+- Character clicks and answer files are not sent to the owner or committed to GitHub.
+- Share PNGs or answer files deliberately. An answer file includes the entire sheet and notes.
+- The host still receives ordinary page requests. No external JavaScript libraries, AI services or analytics are included in this page.
+- Each browser keeps one working sheet for this page. Use answer-file backups for multiple characters.
+- Opening a saved answer file restores its question list too.
+- Existing browsers keep their saved question list after a master update. To use an updated master, save your answer backup, then clear this page's site storage in your browser and reload. New visitors receive the new default automatically.
+- Keep personal filled-in files out of the public GitHub repository. Old YAML files in a public repository remain publicly accessible; only the blank master should be public.
+- GitHub Pages availability depends on repository visibility and account plan. In a public repository it is available on GitHub Free.
+
+The page includes the merged 27 categories / 239 questions. Pregnancy and Family Themes is excluded.
+
+Verified locally: clickable answers, neutral/unanswered distinction, browser reload persistence, question-list application preserving answers, and PNG export generation. Publication in your GitHub account still needs the steps above.
