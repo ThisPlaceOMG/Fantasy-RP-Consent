@@ -19,7 +19,7 @@ PLAYER CONTROLS
 - Click the selected box again to clear it. Blank stays unanswered.
 - Answers autosave in the current browser, when browser storage is available.
 - Save answers downloads an editable .json backup. Use Open saved sheet to restore it on another device or share an editable copy.
-- Download pictures produces numbered PNG pages. Download each page and share the pictures on Discord.
+- Download full picture produces one tall PNG with every category. Open the file and zoom in to read it. Download separate pages is also available.
 - Print / PDF uses the browser print dialog. If your browser ignores dark backgrounds, enable Background graphics.
 - To start another character, save the current character's answers first, then Clear all answers.
 
