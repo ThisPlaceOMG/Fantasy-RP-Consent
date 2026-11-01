@@ -1,6 +1,6 @@
 # Fantasy Roleplay Consent Sheets
 
-An editable GitHub template that generates shareable PNG pictures. No website, server or bot. Includes 27 categories and 239 items; Pregnancy and Family Themes is excluded.
+An editable GitHub template that generates shareable PNG pictures. Includes 27 categories and 239 items.
 
 **Start with `START-HERE.md`.** The preview folder shows a fictional example, not anyone's preferences.
 
