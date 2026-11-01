@@ -1,0 +1,350 @@
+# Rating codes: unrated, no, discuss, yes, favorite
+# Enter one code per column, in column order. Example: [yes, discuss]
+title: Fantasy Roleplay Consent Sheet
+character: Your character name
+server: Your server name
+updated: ''
+notes: Preferences are not blanket consent. Discuss the scene; consent can change. Adult characters and
+  players only.
+ratings:
+  unrated:
+    label: Not answered
+    mark: '?'
+    color: '#788397'
+  'no':
+    label: 'No'
+    mark: N
+    color: '#ef8792'
+  discuss:
+    label: Discuss
+    mark: D
+    color: '#e4b866'
+  'yes':
+    label: 'Yes'
+    mark: Y
+    color: '#78cbb1'
+  favorite:
+    label: Favorite
+    mark: F
+    color: '#b2a0ef'
+categories:
+- name: Romance and Intimacy
+  columns: [General]
+  items:
+    Casual Flirting: [unrated]
+    Slow-Burn Romance: [unrated]
+    Casual Intimacy: [unrated]
+    Enemies to Lovers: [unrated]
+    Forbidden Romance: [unrated]
+    Possessive / Obsessive Romance: [unrated]
+    Unrequited Feelings: [unrated]
+    Infidelity / Love Triangles: [unrated]
+    Arranged / Political Marriage: [unrated]
+    Fade-to-Black: [unrated]
+- name: Relationship Styles
+  columns: [General]
+  items:
+    Monogamy: [unrated]
+    Friends with Benefits: [unrated]
+    Long-Term Relationships: [unrated]
+    Polyamory / Open Relationships: [unrated]
+    Multiple Partners in One Scene: [unrated]
+    Secret Relationships: [unrated]
+    Unequal Social Status: [unrated]
+    Adult Age Gaps: [unrated]
+    Mortal / Immortal Relationships: [unrated]
+- name: Fantasy Partners
+  columns: [Partner]
+  items:
+    Humanoid Characters: [unrated]
+    Monstrous Humanoids: [unrated]
+    Beastkin: [unrated]
+    Reptilian / Scaled Characters: [unrated]
+    Vampires: [unrated]
+    Undead: [unrated]
+    Fae: [unrated]
+    Fiends / Demons: [unrated]
+    Celestials: [unrated]
+    Spirits: [unrated]
+    Shapeshifters: [unrated]
+    Significant Size Differences: [unrated]
+- name: Dominant Roles
+  columns: [Self, Partner]
+  items:
+    Strict Dominant: [unrated, unrated]
+    Gentle Dominant: [unrated, unrated]
+    Protective Dominant: [unrated, unrated]
+    Master / Mistress: [unrated, unrated]
+    Owner / Handler: [unrated, unrated]
+- name: Submissive Roles
+  columns: [Self, Partner]
+  items:
+    Bratty Submissive: [unrated, unrated]
+    Obedient Submissive: [unrated, unrated]
+    Service-Oriented Submissive: [unrated, unrated]
+    Slave Dynamic: [unrated, unrated]
+    Pet Dynamic: [unrated, unrated]
+- name: Power Exchange
+  columns: [As Dominant, As Submissive]
+  items:
+    Commands / Obedience: [unrated, unrated]
+    Rules / Formal Protocol: [unrated, unrated]
+    Honorifics / Titles: [unrated, unrated]
+    Permission Rituals: [unrated, unrated]
+    Training / Instruction: [unrated, unrated]
+    Rewards / Discipline: [unrated, unrated]
+    Brat-Taming: [unrated, unrated]
+    Begging: [unrated, unrated]
+    Public Displays of Submission: [unrated, unrated]
+    Temporary Power Exchange: [unrated, unrated]
+    Ongoing Power Exchange: [unrated, unrated]
+    Switching Roles: [unrated, unrated]
+- name: Praise and Degradation
+  columns: [Giving, Receiving]
+  items:
+    Gentle Praise: [unrated, unrated]
+    Possessive Praise: [unrated, unrated]
+    Earning Approval: [unrated, unrated]
+    Embarrassment: [unrated, unrated]
+    Private Humiliation: [unrated, unrated]
+    Public Humiliation: [unrated, unrated]
+    Name-Calling: [unrated, unrated]
+    Objectification: [unrated, unrated]
+    Status-Based Degradation: [unrated, unrated]
+    Consensual Dehumanization: [unrated, unrated]
+- name: Service and Devotion
+  columns: [Giving, Receiving]
+  items:
+    Personal Attendant: [unrated, unrated]
+    Domestic Service: [unrated, unrated]
+    Dressing / Undressing Assistance: [unrated, unrated]
+    Bathing / Grooming: [unrated, unrated]
+    Kneeling / Formal Postures: [unrated, unrated]
+    Ritual Greetings: [unrated, unrated]
+    Acts of Devotion: [unrated, unrated]
+    Worship / Adoration: [unrated, unrated]
+    Serving Before an Audience: [unrated, unrated]
+    Competing for Favor: [unrated, unrated]
+- name: Ownership and Symbols
+  columns: [Self, Partner]
+  items:
+    Collars / Leashes: [unrated, unrated]
+    Ownership Jewelry: [unrated, unrated]
+    Matching Symbols: [unrated, unrated]
+    Temporary Ownership Markings: [unrated, unrated]
+    Permanent Ownership Markings: [unrated, unrated]
+    Titles Indicating Ownership: [unrated, unrated]
+    Private Ownership Dynamic: [unrated, unrated]
+    Public Ownership Dynamic: [unrated, unrated]
+    Collaring Ceremonies: [unrated, unrated]
+- name: Bondage and Restraint
+  columns: [Self, Partner]
+  items:
+    Light Bondage: [unrated, unrated]
+    Heavy / Elaborate Bondage: [unrated, unrated]
+    Rope: [unrated, unrated]
+    Cuffs / Shackles: [unrated, unrated]
+    Blindfolds: [unrated, unrated]
+    Gags: [unrated, unrated]
+    Restricted Movement: [unrated, unrated]
+    Sensory Deprivation: [unrated, unrated]
+    Magical Restraints: [unrated, unrated]
+    Enchanted Accessories: [unrated, unrated]
+- name: Sensation and Teasing
+  columns: [Giving, Receiving]
+  items:
+    Teasing: [unrated, unrated]
+    Sensation Play: [unrated, unrated]
+    Temperature-Based Sensation: [unrated, unrated]
+    Anticipation: [unrated, unrated]
+    Tickling: [unrated, unrated]
+- name: Pain and Discipline
+  columns: [Giving, Receiving]
+  items:
+    Light Pain: [unrated, unrated]
+    Intense Pain Themes: [unrated, unrated]
+    Impact Play: [unrated, unrated]
+    Scratching: [unrated, unrated]
+    Biting: [unrated, unrated]
+    Endurance Challenges: [unrated, unrated]
+    Ritualized Discipline: [unrated, unrated]
+    Discipline Followed by Comfort: [unrated, unrated]
+    Temporary Marks: [unrated, unrated]
+    Lasting Marks: [unrated, unrated]
+- name: Pet and Handler Dynamics
+  columns: [Self, Partner]
+  items:
+    Pet Names / Titles: [unrated, unrated]
+    Commands / Training: [unrated, unrated]
+    Praise / Rewards: [unrated, unrated]
+    Grooming: [unrated, unrated]
+    Playful Pet Behavior: [unrated, unrated]
+    Protective Handler: [unrated, unrated]
+    Strict Handler: [unrated, unrated]
+    Private Pet Dynamic: [unrated, unrated]
+    Public Pet Dynamic: [unrated, unrated]
+- name: Attention and Exposure
+  columns: [Self, Partner]
+  items:
+    Being Admired: [unrated, unrated]
+    Exhibitionism: [unrated, unrated]
+    Voyeurism With Consenting Adults: [unrated, unrated]
+    Performing for a Consenting Audience: [unrated, unrated]
+    Consensual Display: [unrated, unrated]
+    Being Presented by a Partner: [unrated, unrated]
+    Being the Center of Attention: [unrated, unrated]
+    Private Photography / Screenshots: [unrated, unrated]
+    Shared Photography / Screenshots: [unrated, unrated]
+- name: Clothing and Presentation
+  columns: [Self, Partner]
+  items:
+    Lingerie / Sheer Clothing: [unrated, unrated]
+    Leather: [unrated, unrated]
+    Armor: [unrated, unrated]
+    Ceremonial Clothing: [unrated, unrated]
+    Servant Clothing: [unrated, unrated]
+    Masks / Veils: [unrated, unrated]
+    Cross-Dressing: [unrated, unrated]
+    Partner-Chosen Clothing: [unrated, unrated]
+- name: Fantasy Kink Dynamics
+  columns: [Self, Partner]
+  items:
+    Noble / Sworn Attendant: [unrated, unrated]
+    Warlord / Consort: [unrated, unrated]
+    Priest / Devotee: [unrated, unrated]
+    Champion / Patron: [unrated, unrated]
+    Fae Court Hierarchy: [unrated, unrated]
+    Vampire / Willing Donor: [unrated, unrated]
+    Consensually Bound Familiar: [unrated, unrated]
+    Consensual Magical Ownership: [unrated, unrated]
+    Ritual Submission: [unrated, unrated]
+    Negotiated Supernatural Power Imbalance: [unrated, unrated]
+- name: Conflict and Manipulation
+  columns: [Initiating, Receiving]
+  items:
+    Intimidation / Threats: [unrated, unrated]
+    Blackmail: [unrated, unrated]
+    Emotional Manipulation: [unrated, unrated]
+    Obsession / Stalking: [unrated, unrated]
+    Betrayal: [unrated, unrated]
+    Public Humiliation During Conflict: [unrated, unrated]
+    Exposure of Secrets: [unrated, unrated]
+    Religious Persecution: [unrated, unrated]
+    Prejudice Against Fictional Peoples: [unrated, unrated]
+    Threats Against Loved Ones: [unrated, unrated]
+- name: Capture and Control
+  columns: [Captor, Captive]
+  items:
+    Short-Term Capture: [unrated, unrated]
+    Long-Term Captivity: [unrated, unrated]
+    Kidnapping: [unrated, unrated]
+    Imprisonment: [unrated, unrated]
+    Ransom: [unrated, unrated]
+    Forced Relocation: [unrated, unrated]
+    Interrogation: [unrated, unrated]
+    Torture: [unrated, unrated]
+    Forced Labor: [unrated, unrated]
+    Enslavement: [unrated, unrated]
+    Sale / Transfer of Captives: [unrated, unrated]
+- name: Injury and Consequences
+  columns: [Inflicting, Receiving]
+  items:
+    Serious Injury: [unrated, unrated]
+    Permanent Scarring: [unrated, unrated]
+    Branding / Permanent Markings: [unrated, unrated]
+    Mutilation: [unrated, unrated]
+    Loss of Limbs / Senses: [unrated, unrated]
+    Lasting Disability: [unrated, unrated]
+    Temporary Loss of Abilities: [unrated, unrated]
+    Permanent Loss of Abilities: [unrated, unrated]
+- name: Mental Magic
+  columns: [Caster, Target]
+  items:
+    Mind Reading: [unrated, unrated]
+    Compelled Truth: [unrated, unrated]
+    Emotion Manipulation: [unrated, unrated]
+    Memory Viewing: [unrated, unrated]
+    Memory Alteration / Erasure: [unrated, unrated]
+    Mind Control: [unrated, unrated]
+    Possession: [unrated, unrated]
+    Magical Surveillance: [unrated, unrated]
+    Induced Dreams / Nightmares: [unrated, unrated]
+- name: Transformation and Corruption
+  columns: [Inflicting, Receiving]
+  items:
+    Temporary Transformation: [unrated, unrated]
+    Permanent Transformation: [unrated, unrated]
+    Involuntary Shapeshifting: [unrated, unrated]
+    Vampirism: [unrated, unrated]
+    Lycanthropy: [unrated, unrated]
+    Undeath: [unrated, unrated]
+    Physical Corruption: [unrated, unrated]
+    Mental / Spiritual Corruption: [unrated, unrated]
+    Changes to Personality: [unrated, unrated]
+    Changes to Ancestry: [unrated, unrated]
+    Loss of Control: [unrated, unrated]
+- name: Pacts and Magical Bonds
+  columns: [Initiating, Receiving]
+  items:
+    Binding Oaths: [unrated, unrated]
+    Fae Bargains: [unrated, unrated]
+    Infernal Contracts: [unrated, unrated]
+    Soul Bonds: [unrated, unrated]
+    Shared Emotions / Sensations: [unrated, unrated]
+    Bound Service: [unrated, unrated]
+    Soul Ownership: [unrated, unrated]
+    Consequences for Broken Pacts: [unrated, unrated]
+    Irreversible Magical Bonds: [unrated, unrated]
+- name: Feeding and Ritual
+  columns: [Giving, Receiving]
+  items:
+    Vampire Feeding: [unrated, unrated]
+    Bloodletting: [unrated, unrated]
+    Blood Rituals: [unrated, unrated]
+    Energy Draining: [unrated, unrated]
+    Sacrificial Themes: [unrated, unrated]
+    Ritual Scarification: [unrated, unrated]
+    Lasting Feeding Marks: [unrated, unrated]
+    Feeding With Lasting Consequences: [unrated, unrated]
+- name: Horror and Dark Themes
+  columns: [General]
+  items:
+    Graphic Violence / Gore: [unrated]
+    Body Horror: [unrated]
+    Disease / Plague: [unrated]
+    Parasites / Infestation: [unrated]
+    Cannibalism: [unrated]
+    Psychological Horror: [unrated]
+    Loss of Identity: [unrated]
+    Soul Destruction: [unrated]
+- name: Property and Status
+  columns: [Inflicting, Receiving]
+  items:
+    Theft of Valuable Items: [unrated, unrated]
+    Theft of Sentimental Items: [unrated, unrated]
+    Destruction of Property: [unrated, unrated]
+    Loss of Home / Business: [unrated, unrated]
+    Loss of Rank / Authority: [unrated, unrated]
+    Public Disgrace: [unrated, unrated]
+    Exile / Banishment: [unrated, unrated]
+    Lasting Damage to Reputation: [unrated, unrated]
+- name: Death and Afterlife
+  columns: [Self, Partner]
+  items:
+    Permanent Character Death: [unrated, unrated]
+    Execution: [unrated, unrated]
+    Sacrifice: [unrated, unrated]
+    Resurrection: [unrated, unrated]
+    Resurrection With Lasting Changes: [unrated, unrated]
+    Failed Resurrection: [unrated, unrated]
+    Ghost / Afterlife Roleplay: [unrated, unrated]
+    Involuntary Return From Death: [unrated, unrated]
+- name: Care and Aftercare
+  columns: [Giving, Receiving]
+  items:
+    Reassurance / Affirmation: [unrated, unrated]
+    Physical Comfort: [unrated, unrated]
+    Quiet Companionship: [unrated, unrated]
+    Remaining in Character for Aftercare: [unrated, unrated]
+    Out-of-Character Check-In: [unrated, unrated]
+    Space After an Intense Scene: [unrated, unrated]

@@ -1,0 +1,350 @@
+# Rating codes: unrated, no, discuss, yes, favorite
+# Enter one code per column, in column order. Example: [yes, discuss]
+title: Fantasy Roleplay Consent Sheet
+character: Sample Character
+server: Fantasy Roleplay
+updated: Example only
+notes: Preferences are not blanket consent. Discuss the scene; consent can change. Adult characters and
+  players only.
+ratings:
+  unrated:
+    label: Not answered
+    mark: '?'
+    color: '#788397'
+  'no':
+    label: 'No'
+    mark: N
+    color: '#ef8792'
+  discuss:
+    label: Discuss
+    mark: D
+    color: '#e4b866'
+  'yes':
+    label: 'Yes'
+    mark: Y
+    color: '#78cbb1'
+  favorite:
+    label: Favorite
+    mark: F
+    color: '#b2a0ef'
+categories:
+- name: Romance and Intimacy
+  columns: [General]
+  items:
+    Casual Flirting: ['yes']
+    Slow-Burn Romance: [discuss]
+    Casual Intimacy: ['no']
+    Enemies to Lovers: [favorite]
+    Forbidden Romance: [unrated]
+    Possessive / Obsessive Romance: ['yes']
+    Unrequited Feelings: [discuss]
+    Infidelity / Love Triangles: ['no']
+    Arranged / Political Marriage: [favorite]
+    Fade-to-Black: [unrated]
+- name: Relationship Styles
+  columns: [General]
+  items:
+    Monogamy: ['yes']
+    Friends with Benefits: [discuss]
+    Long-Term Relationships: ['no']
+    Polyamory / Open Relationships: [favorite]
+    Multiple Partners in One Scene: [unrated]
+    Secret Relationships: ['yes']
+    Unequal Social Status: [discuss]
+    Adult Age Gaps: ['no']
+    Mortal / Immortal Relationships: [favorite]
+- name: Fantasy Partners
+  columns: [Partner]
+  items:
+    Humanoid Characters: ['yes']
+    Monstrous Humanoids: [discuss]
+    Beastkin: ['no']
+    Reptilian / Scaled Characters: [favorite]
+    Vampires: [unrated]
+    Undead: ['yes']
+    Fae: [discuss]
+    Fiends / Demons: ['no']
+    Celestials: [favorite]
+    Spirits: [unrated]
+    Shapeshifters: ['yes']
+    Significant Size Differences: [discuss]
+- name: Dominant Roles
+  columns: [Self, Partner]
+  items:
+    Strict Dominant: ['yes', discuss]
+    Gentle Dominant: [discuss, 'no']
+    Protective Dominant: ['no', favorite]
+    Master / Mistress: [favorite, unrated]
+    Owner / Handler: [unrated, 'yes']
+- name: Submissive Roles
+  columns: [Self, Partner]
+  items:
+    Bratty Submissive: ['yes', discuss]
+    Obedient Submissive: [discuss, 'no']
+    Service-Oriented Submissive: ['no', favorite]
+    Slave Dynamic: [favorite, unrated]
+    Pet Dynamic: [unrated, 'yes']
+- name: Power Exchange
+  columns: [As Dominant, As Submissive]
+  items:
+    Commands / Obedience: ['yes', discuss]
+    Rules / Formal Protocol: [discuss, 'no']
+    Honorifics / Titles: ['no', favorite]
+    Permission Rituals: [favorite, unrated]
+    Training / Instruction: [unrated, 'yes']
+    Rewards / Discipline: ['yes', discuss]
+    Brat-Taming: [discuss, 'no']
+    Begging: ['no', favorite]
+    Public Displays of Submission: [favorite, unrated]
+    Temporary Power Exchange: [unrated, 'yes']
+    Ongoing Power Exchange: ['yes', discuss]
+    Switching Roles: [discuss, 'no']
+- name: Praise and Degradation
+  columns: [Giving, Receiving]
+  items:
+    Gentle Praise: ['yes', discuss]
+    Possessive Praise: [discuss, 'no']
+    Earning Approval: ['no', favorite]
+    Embarrassment: [favorite, unrated]
+    Private Humiliation: [unrated, 'yes']
+    Public Humiliation: ['yes', discuss]
+    Name-Calling: [discuss, 'no']
+    Objectification: ['no', favorite]
+    Status-Based Degradation: [favorite, unrated]
+    Consensual Dehumanization: [unrated, 'yes']
+- name: Service and Devotion
+  columns: [Giving, Receiving]
+  items:
+    Personal Attendant: ['yes', discuss]
+    Domestic Service: [discuss, 'no']
+    Dressing / Undressing Assistance: ['no', favorite]
+    Bathing / Grooming: [favorite, unrated]
+    Kneeling / Formal Postures: [unrated, 'yes']
+    Ritual Greetings: ['yes', discuss]
+    Acts of Devotion: [discuss, 'no']
+    Worship / Adoration: ['no', favorite]
+    Serving Before an Audience: [favorite, unrated]
+    Competing for Favor: [unrated, 'yes']
+- name: Ownership and Symbols
+  columns: [Self, Partner]
+  items:
+    Collars / Leashes: ['yes', discuss]
+    Ownership Jewelry: [discuss, 'no']
+    Matching Symbols: ['no', favorite]
+    Temporary Ownership Markings: [favorite, unrated]
+    Permanent Ownership Markings: [unrated, 'yes']
+    Titles Indicating Ownership: ['yes', discuss]
+    Private Ownership Dynamic: [discuss, 'no']
+    Public Ownership Dynamic: ['no', favorite]
+    Collaring Ceremonies: [favorite, unrated]
+- name: Bondage and Restraint
+  columns: [Self, Partner]
+  items:
+    Light Bondage: ['yes', discuss]
+    Heavy / Elaborate Bondage: [discuss, 'no']
+    Rope: ['no', favorite]
+    Cuffs / Shackles: [favorite, unrated]
+    Blindfolds: [unrated, 'yes']
+    Gags: ['yes', discuss]
+    Restricted Movement: [discuss, 'no']
+    Sensory Deprivation: ['no', favorite]
+    Magical Restraints: [favorite, unrated]
+    Enchanted Accessories: [unrated, 'yes']
+- name: Sensation and Teasing
+  columns: [Giving, Receiving]
+  items:
+    Teasing: ['yes', discuss]
+    Sensation Play: [discuss, 'no']
+    Temperature-Based Sensation: ['no', favorite]
+    Anticipation: [favorite, unrated]
+    Tickling: [unrated, 'yes']
+- name: Pain and Discipline
+  columns: [Giving, Receiving]
+  items:
+    Light Pain: ['yes', discuss]
+    Intense Pain Themes: [discuss, 'no']
+    Impact Play: ['no', favorite]
+    Scratching: [favorite, unrated]
+    Biting: [unrated, 'yes']
+    Endurance Challenges: ['yes', discuss]
+    Ritualized Discipline: [discuss, 'no']
+    Discipline Followed by Comfort: ['no', favorite]
+    Temporary Marks: [favorite, unrated]
+    Lasting Marks: [unrated, 'yes']
+- name: Pet and Handler Dynamics
+  columns: [Self, Partner]
+  items:
+    Pet Names / Titles: ['yes', discuss]
+    Commands / Training: [discuss, 'no']
+    Praise / Rewards: ['no', favorite]
+    Grooming: [favorite, unrated]
+    Playful Pet Behavior: [unrated, 'yes']
+    Protective Handler: ['yes', discuss]
+    Strict Handler: [discuss, 'no']
+    Private Pet Dynamic: ['no', favorite]
+    Public Pet Dynamic: [favorite, unrated]
+- name: Attention and Exposure
+  columns: [Self, Partner]
+  items:
+    Being Admired: ['yes', discuss]
+    Exhibitionism: [discuss, 'no']
+    Voyeurism With Consenting Adults: ['no', favorite]
+    Performing for a Consenting Audience: [favorite, unrated]
+    Consensual Display: [unrated, 'yes']
+    Being Presented by a Partner: ['yes', discuss]
+    Being the Center of Attention: [discuss, 'no']
+    Private Photography / Screenshots: ['no', favorite]
+    Shared Photography / Screenshots: [favorite, unrated]
+- name: Clothing and Presentation
+  columns: [Self, Partner]
+  items:
+    Lingerie / Sheer Clothing: ['yes', discuss]
+    Leather: [discuss, 'no']
+    Armor: ['no', favorite]
+    Ceremonial Clothing: [favorite, unrated]
+    Servant Clothing: [unrated, 'yes']
+    Masks / Veils: ['yes', discuss]
+    Cross-Dressing: [discuss, 'no']
+    Partner-Chosen Clothing: ['no', favorite]
+- name: Fantasy Kink Dynamics
+  columns: [Self, Partner]
+  items:
+    Noble / Sworn Attendant: ['yes', discuss]
+    Warlord / Consort: [discuss, 'no']
+    Priest / Devotee: ['no', favorite]
+    Champion / Patron: [favorite, unrated]
+    Fae Court Hierarchy: [unrated, 'yes']
+    Vampire / Willing Donor: ['yes', discuss]
+    Consensually Bound Familiar: [discuss, 'no']
+    Consensual Magical Ownership: ['no', favorite]
+    Ritual Submission: [favorite, unrated]
+    Negotiated Supernatural Power Imbalance: [unrated, 'yes']
+- name: Conflict and Manipulation
+  columns: [Initiating, Receiving]
+  items:
+    Intimidation / Threats: ['yes', discuss]
+    Blackmail: [discuss, 'no']
+    Emotional Manipulation: ['no', favorite]
+    Obsession / Stalking: [favorite, unrated]
+    Betrayal: [unrated, 'yes']
+    Public Humiliation During Conflict: ['yes', discuss]
+    Exposure of Secrets: [discuss, 'no']
+    Religious Persecution: ['no', favorite]
+    Prejudice Against Fictional Peoples: [favorite, unrated]
+    Threats Against Loved Ones: [unrated, 'yes']
+- name: Capture and Control
+  columns: [Captor, Captive]
+  items:
+    Short-Term Capture: ['yes', discuss]
+    Long-Term Captivity: [discuss, 'no']
+    Kidnapping: ['no', favorite]
+    Imprisonment: [favorite, unrated]
+    Ransom: [unrated, 'yes']
+    Forced Relocation: ['yes', discuss]
+    Interrogation: [discuss, 'no']
+    Torture: ['no', favorite]
+    Forced Labor: [favorite, unrated]
+    Enslavement: [unrated, 'yes']
+    Sale / Transfer of Captives: ['yes', discuss]
+- name: Injury and Consequences
+  columns: [Inflicting, Receiving]
+  items:
+    Serious Injury: ['yes', discuss]
+    Permanent Scarring: [discuss, 'no']
+    Branding / Permanent Markings: ['no', favorite]
+    Mutilation: [favorite, unrated]
+    Loss of Limbs / Senses: [unrated, 'yes']
+    Lasting Disability: ['yes', discuss]
+    Temporary Loss of Abilities: [discuss, 'no']
+    Permanent Loss of Abilities: ['no', favorite]
+- name: Mental Magic
+  columns: [Caster, Target]
+  items:
+    Mind Reading: ['yes', discuss]
+    Compelled Truth: [discuss, 'no']
+    Emotion Manipulation: ['no', favorite]
+    Memory Viewing: [favorite, unrated]
+    Memory Alteration / Erasure: [unrated, 'yes']
+    Mind Control: ['yes', discuss]
+    Possession: [discuss, 'no']
+    Magical Surveillance: ['no', favorite]
+    Induced Dreams / Nightmares: [favorite, unrated]
+- name: Transformation and Corruption
+  columns: [Inflicting, Receiving]
+  items:
+    Temporary Transformation: ['yes', discuss]
+    Permanent Transformation: [discuss, 'no']
+    Involuntary Shapeshifting: ['no', favorite]
+    Vampirism: [favorite, unrated]
+    Lycanthropy: [unrated, 'yes']
+    Undeath: ['yes', discuss]
+    Physical Corruption: [discuss, 'no']
+    Mental / Spiritual Corruption: ['no', favorite]
+    Changes to Personality: [favorite, unrated]
+    Changes to Ancestry: [unrated, 'yes']
+    Loss of Control: ['yes', discuss]
+- name: Pacts and Magical Bonds
+  columns: [Initiating, Receiving]
+  items:
+    Binding Oaths: ['yes', discuss]
+    Fae Bargains: [discuss, 'no']
+    Infernal Contracts: ['no', favorite]
+    Soul Bonds: [favorite, unrated]
+    Shared Emotions / Sensations: [unrated, 'yes']
+    Bound Service: ['yes', discuss]
+    Soul Ownership: [discuss, 'no']
+    Consequences for Broken Pacts: ['no', favorite]
+    Irreversible Magical Bonds: [favorite, unrated]
+- name: Feeding and Ritual
+  columns: [Giving, Receiving]
+  items:
+    Vampire Feeding: ['yes', discuss]
+    Bloodletting: [discuss, 'no']
+    Blood Rituals: ['no', favorite]
+    Energy Draining: [favorite, unrated]
+    Sacrificial Themes: [unrated, 'yes']
+    Ritual Scarification: ['yes', discuss]
+    Lasting Feeding Marks: [discuss, 'no']
+    Feeding With Lasting Consequences: ['no', favorite]
+- name: Horror and Dark Themes
+  columns: [General]
+  items:
+    Graphic Violence / Gore: ['yes']
+    Body Horror: [discuss]
+    Disease / Plague: ['no']
+    Parasites / Infestation: [favorite]
+    Cannibalism: [unrated]
+    Psychological Horror: ['yes']
+    Loss of Identity: [discuss]
+    Soul Destruction: ['no']
+- name: Property and Status
+  columns: [Inflicting, Receiving]
+  items:
+    Theft of Valuable Items: ['yes', discuss]
+    Theft of Sentimental Items: [discuss, 'no']
+    Destruction of Property: ['no', favorite]
+    Loss of Home / Business: [favorite, unrated]
+    Loss of Rank / Authority: [unrated, 'yes']
+    Public Disgrace: ['yes', discuss]
+    Exile / Banishment: [discuss, 'no']
+    Lasting Damage to Reputation: ['no', favorite]
+- name: Death and Afterlife
+  columns: [Self, Partner]
+  items:
+    Permanent Character Death: ['yes', discuss]
+    Execution: [discuss, 'no']
+    Sacrifice: ['no', favorite]
+    Resurrection: [favorite, unrated]
+    Resurrection With Lasting Changes: [unrated, 'yes']
+    Failed Resurrection: ['yes', discuss]
+    Ghost / Afterlife Roleplay: [discuss, 'no']
+    Involuntary Return From Death: ['no', favorite]
+- name: Care and Aftercare
+  columns: [Giving, Receiving]
+  items:
+    Reassurance / Affirmation: ['yes', discuss]
+    Physical Comfort: [discuss, 'no']
+    Quiet Companionship: ['no', favorite]
+    Remaining in Character for Aftercare: [favorite, unrated]
+    Out-of-Character Check-In: [unrated, 'yes']
+    Space After an Intense Scene: ['yes', discuss]
