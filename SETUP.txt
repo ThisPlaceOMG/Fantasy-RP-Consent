@@ -46,3 +46,24 @@ PRIVACY AND LIMITS
 The page includes the merged 27 categories / 239 questions. Pregnancy and Family Themes is excluded.
 
 Verified locally: clickable answers, neutral/unanswered distinction, browser reload persistence, question-list application preserving answers, and PNG export generation. Publication in your GitHub account still needs the steps above.
+
+SHARE A FILLED SHEET AS A LINK
+1. Open the published GitHub Pages page and fill in your answers.
+2. Click Share filled sheet.
+3. Click Copy link, then paste the full link into your Discord application.
+4. The recipient sees a read-only snapshot, including custom questions and notes.
+
+Anyone with the link can read and save its contents. The link is encoded, not encrypted; it has no password, expiry or revocation control. Read-only prevents accidental changes in the viewing interface, not someone copying or modifying data in a separate sheet. It is not an identity verification or signature.
+
+Updates to your answers do not update old links. Generate a new link after editing. Existing links keep the previous snapshot and require the same hosted page to remain available. Keep the frozen sharing dictionary in future page updates so old links remain compatible.
+
+Shared answers are carried after the # in the URL and decoded in the browser. They are not stored in a database, and opening a shared link does not overwrite the viewer's own browser draft. Recipients can still download a copy. Do not include anything in notes that you do not intend to share.
+
+Most default sheets make compact links. Extensive custom questions or notes may exceed a chat message's limit; the sharing dialog shows the link length and warns when it is long. Shorten notes or share the saved answer file in that case.
+
+If copying is blocked by the browser, the link is selected so you can press Ctrl+C / Command+C manually. Link sharing requires opening the published website, not a local file.
+
+UPDATE YOUR EXISTING SITE
+Upload only the new index.html to the same repository root and commit. Existing browser drafts remain saved. Before updating, use Save answers as a backup, especially if you customized the question list. This download retains the original package's blank default; if you changed your published base, restore your saved custom list with Open saved sheet, then Edit question list > Download blank page and upload that index.html to retain your preferred shared default.
+
+Tested sharing: default and custom question round-trips, all rating values, Unicode names/notes, invalid link handling, browser read-only display, and preservation of the viewer's independent draft.
